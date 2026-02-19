@@ -1,7 +1,7 @@
 package influx
 
 import (
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/pkg/errors"
 	"path/filepath"
 	"time"

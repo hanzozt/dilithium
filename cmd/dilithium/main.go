@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/michaelquigley/pfxlog"
-	_ "github.com/openziti/dilithium/cmd/dilithium/ctrl"
-	"github.com/openziti/dilithium/cmd/dilithium/dilithium"
-	_ "github.com/openziti/dilithium/cmd/dilithium/echo"
-	_ "github.com/openziti/dilithium/cmd/dilithium/influx"
-	_ "github.com/openziti/dilithium/cmd/dilithium/loop"
-	_ "github.com/openziti/dilithium/cmd/dilithium/tunnel"
+	_ "github.com/hanzozt/dilithium/cmd/dilithium/ctrl"
+	"github.com/hanzozt/dilithium/cmd/dilithium/dilithium"
+	_ "github.com/hanzozt/dilithium/cmd/dilithium/echo"
+	_ "github.com/hanzozt/dilithium/cmd/dilithium/influx"
+	_ "github.com/hanzozt/dilithium/cmd/dilithium/loop"
+	_ "github.com/hanzozt/dilithium/cmd/dilithium/tunnel"
 	"github.com/sirupsen/logrus"
 	"log"
 	"os"
@@ -17,7 +17,7 @@ import (
 )
 
 func init() {
-	pfxlog.GlobalInit(logrus.InfoLevel, pfxlog.DefaultOptions().SetTrimPrefix("github.com/openziti/"))
+	pfxlog.GlobalInit(logrus.InfoLevel, pfxlog.DefaultOptions().SetTrimPrefix("github.com/hanzozt/"))
 }
 
 func main() {

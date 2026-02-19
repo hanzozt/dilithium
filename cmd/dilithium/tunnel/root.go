@@ -1,7 +1,7 @@
 package tunnel
 
 import (
-	"github.com/openziti/dilithium/cmd/dilithium/dilithium"
+	"github.com/hanzozt/dilithium/cmd/dilithium/dilithium"
 	"github.com/spf13/cobra"
 )
 

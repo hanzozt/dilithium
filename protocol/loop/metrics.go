@@ -2,7 +2,7 @@ package loop
 
 import (
 	"fmt"
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"io/ioutil"

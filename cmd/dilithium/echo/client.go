@@ -3,7 +3,7 @@ package echo
 import (
 	"bufio"
 	"fmt"
-	"github.com/openziti/dilithium/cmd/dilithium/dilithium"
+	"github.com/hanzozt/dilithium/cmd/dilithium/dilithium"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"net"

@@ -1,7 +1,7 @@
 package loop
 
 import (
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

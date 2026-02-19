@@ -2,7 +2,7 @@ package dilithium
 
 import (
 	"fmt"
-	"github.com/openziti-incubator/cf"
+	"github.com/hanzozt-incubator/cf"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"net"

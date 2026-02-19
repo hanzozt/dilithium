@@ -1,7 +1,7 @@
 package westworld3
 
 import (
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/pkg/errors"
 	"net"
 	"strings"

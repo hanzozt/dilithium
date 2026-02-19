@@ -1,7 +1,7 @@
 package ctrl
 
 import (
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"net"

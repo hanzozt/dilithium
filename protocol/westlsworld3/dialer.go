@@ -2,7 +2,7 @@ package westlsworld3
 
 import (
 	"crypto/tls"
-	"github.com/openziti/dilithium/protocol/westworld3"
+	"github.com/hanzozt/dilithium/protocol/westworld3"
 	"net"
 )
 

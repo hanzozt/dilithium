@@ -1,7 +1,7 @@
 package loop
 
 import (
-	"github.com/openziti/dilithium/protocol/loop"
+	"github.com/hanzozt/dilithium/protocol/loop"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"net"

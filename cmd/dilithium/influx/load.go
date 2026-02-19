@@ -3,7 +3,7 @@ package influx
 import (
 	"fmt"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

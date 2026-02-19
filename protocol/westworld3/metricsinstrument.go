@@ -2,8 +2,8 @@ package westworld3
 
 import (
 	"fmt"
-	"github.com/openziti-incubator/cf"
-	"github.com/openziti/dilithium/util"
+	"github.com/hanzozt-incubator/cf"
+	"github.com/hanzozt/dilithium/util"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"io/ioutil"
