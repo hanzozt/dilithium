@@ -96,7 +96,7 @@ The `txPortal` will block that `Write` call according to the flow control semant
 
 `dilithium` `v0.3` includes support for upper buffer size bounds. When this bound is configured, a downstream client that is slow to consume outbound stream data through the `net.Conn`/`io.Reader` method `Read` will cause the `rxPortal` to drop inbound payloads that do not fill gaps in its internal buffers. Payloads that would progress the stream forward will be discarded, until the downstream client consumes enough data to clear space in the buffer for those new payloads.
 
-This has performance impacts, obviously. But in cases where an unconstrained `rxPortal` buffer is a concern, this capability can be engaged. This capability is implemented to support `Payload` dropping based on Xgress `Read` rates in the `ziti-fabric`.
+This has performance impacts, obviously. But in cases where an unconstrained `rxPortal` buffer is a concern, this capability can be engaged. This capability is implemented to support `Payload` dropping based on Xgress `Read` rates in the `zt-fabric`.
 
 ## Profiles
 
